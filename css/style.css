@@ -1,0 +1,73 @@
+html {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #00143D;
+    font-family: 'Courier Prime', monospace;
+
+    animation-name: sliding;
+    animation-duration: 3s;
+}
+
+body {
+    text-align: center;
+    background-color: #A30000;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+    animation-name: fading;
+    animation-duration: 3s;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #0D1F2D;
+}
+
+h2 {
+    color: #FBFEFB;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+#input {
+    font-size: 25px;
+}
+
+#clearDate {
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+#firstDay, #lastDay {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 60px;
+}
+
+
+#alert {
+    color: yellow;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+@keyframes sliding {
+    0% {transform: translateY(100px)};
+    100% {transform: translateY(0);}
+}
+
+@keyframes fading {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
